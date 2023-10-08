@@ -1,0 +1,17 @@
+.lyrics-faded-bottom{
+    background: linear-gradient(180deg, rgb(185 28 28 / 0%), #e62525);
+    box-shadow: inset 0px -34px 33px #e62525;
+    height: 90px;
+}
+.lyrics-faded-top{
+    background: linear-gradient(0deg, rgb(185 28 28 / 0%), #e62525);
+    box-shadow: inset 0px 50px 33px #e62525;
+    height: 90px;
+}
+p{
+    font-weight: 600;
+    font-size: 1.75rem;
+    font-family: 'Comfortaa', cursive !important;
+/* font-family: 'Prompt', sans-serif !important; */
+/* font-family: 'Wix Madefor Display', sans-serif !important; */
+}
