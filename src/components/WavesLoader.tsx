@@ -12,22 +12,23 @@ const waveAnimation = keyframes`
 
 const Wave = styled.div`
   display: inline-block;
-  background-color: #000;
-  height: 50px;
+  background-color: #fff;
+  margin:0 5px;
+  height: 30px;
   width: 5px;
   border-radius: 2px;
   animation: ${waveAnimation} 0.5s infinite ease-in-out;
 `;
 
 
-const WavesLoader = () => {
+const WavesLoader = ({height=""}) => {
     return (
         <div>
-    <Wave style={{ animationDelay: '0s' }} />
-    <Wave style={{ animationDelay: '0.1s' }} />
-    <Wave style={{ animationDelay: '0.2s' }} />
-    <Wave style={{ animationDelay: '0.3s' }} />
-    <Wave style={{ animationDelay: '0.4s' }} />
+    <Wave style={{ animationDelay: '0s', height:`${height?height:"40px"}`}} />
+    <Wave style={{ animationDelay: '0.1s', height:`${height?height:"40px"}`}} />
+    <Wave style={{ animationDelay: '0.2s', height:`${height?height:"40px"}`}} />
+    <Wave style={{ animationDelay: '0.3s', height:`${height?height:"40px"}`}} />
+    <Wave style={{ animationDelay: '0.4s', height:`${height?height:"40px"}`}} />
     {/* <Bars stroke="#000" fill="none" speed={1} width={32} height={32} /> */}
   </div>
     )

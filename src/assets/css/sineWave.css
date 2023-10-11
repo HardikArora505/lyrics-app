@@ -57,6 +57,21 @@ body {
    .obj:nth-child(20){animation-delay: 0.45s;}
    .obj:nth-child(21){animation-delay: 0.6s;}
    .obj:nth-child(22){animation-delay: 0.75s;}
+   .obj:nth-child(23){}
+   .obj:nth-child(24){animation-delay: 0.15s;}
+   .obj:nth-child(25){animation-delay: 0.3s;}
+   .obj:nth-child(26){animation-delay: 0.45s;}
+   .obj:nth-child(27){animation-delay: 0.6s;}
+   .obj:nth-child(28){animation-delay: 0.75s;}
+   .obj:nth-child(29){animation-delay: 0.9s;}
+   .obj:nth-child(30){animation-delay: 1.05s;}
+   .obj:nth-child(31){}
+   .obj:nth-child(32){animation-delay: 0.15s;}
+
+
+
+
+
 
   
   @keyframes loading {
