@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -16,6 +18,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  transition: all ease-in-out 0.5s;
 }
 
 a {
@@ -77,4 +80,7 @@ button:focus-visible {
 ::selection {
   color: #e62525;
   background: black;
+}
+.round-border{
+  border-radius: 1.2rem;
 }

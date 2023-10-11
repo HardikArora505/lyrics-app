@@ -22,7 +22,7 @@ const SearchItem: FC<Props> = ({ search, modalOpen, setModalOpen,loading}) => {
   }
 
   return (
-          <div onClick={() => { loading?"":close()}} className={`flex items-center p-2 max-w-full rounded-lg m-2 cursor-pointer`} style={{ background: "linear-gradient(45deg, #000000, #c4006275)" }}>
+          <div onClick={() => { loading?"":close()}} className={`flex items-center p-2 max-w-full rounded-lg m-2 cursor-pointer`} style={{ background: "linear-gradient(45deg, #000000, #1e293b)" }}>
             <div className={`search_img mr-auto w-36 p-2 relative flex items-center justify-center${imgLoaded?"w-[6.667rem] h-[6.667rem] ":""}`}>{ imgLoaded && <WavesLoader/>}<img src={search?.song_art_image_thumbnail_url} alt="song art cover" onLoad={()=>setImgLoaded(false)} className={`${imgLoaded?"hidden":""}`}/></div>
             <div className='w-full'>
               <div><h6>{loading?<WavesLoader height="10px"/>:search?.artist_names}</h6></div>
