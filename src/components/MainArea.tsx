@@ -33,7 +33,7 @@ const MainArea = () => {
             return
 
         }
-        const response = await axios.get(`https://drab-puce-ox-hose.cyclic.cloud/lyrics/${songId}`)
+        const response = await axios.get(`https://graceful-kitsune-e89c24.netlify.app/api/lyrics/${songId}`)
 
         // Select even and odd elements
         const even = document.querySelectorAll('.obj:nth-child(even)');
