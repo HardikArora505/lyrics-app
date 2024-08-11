@@ -95,7 +95,7 @@ const MainArea = () => {
     }, [lyrics])
     return (
         <div className='flex h-full w-full gap-14 main-area round-border' style={{boxShadow:"-8px 10px 10px #000"}}>
-            <div className={`flex flex-col  text-black px-4 rounded-lg max-h-[65rem] min-h-[37rem] h-[calc(100vh-4rem)] min-w-[71rem] gap-5 pb-3 pt-7 relative `} style={{background:`${color}`}}>
+            <div className={`flex flex-col  text-black px-4 rounded-lg max-h-[65rem] min-h-[37rem] h-[calc(100vh-4rem)] min-w-[71rem] gap-5 pb-3 pt-7 relative mix-blend-luminosity`} style={{background:`${color}`}}>
             <span onClick={(e) => { e.stopPropagation(); setModalOpen(true) }} className='cursor-pointer w-11 h-11 flex items-center justify-center rounded-full absolute -left-16 top-0 z-50' style={{background:`linear-gradient(45deg, ${color}, #710ac1a3)`,boxShadow:"-2px 7px 10px black"}}>
                 {searchIC}
             </span>
